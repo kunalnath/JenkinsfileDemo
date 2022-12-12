@@ -6,5 +6,10 @@ pipeline{
                 echo Hello World
             }  
         }
+        stage("Print Welcome"){
+            steps{
+                echo Welcome
+            }  
+        }
     }
 }
