@@ -3,12 +3,12 @@ pipeline{
     stages{
         stage("Print Hello World"){
             steps{
-                echo Hello World
+                echo 'Hello World'
             }  
         }
         stage("Print Welcome"){
             steps{
-                echo Welcome
+                echo 'Welcome'
             }  
         }
     }
